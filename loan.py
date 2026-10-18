@@ -6,4 +6,4 @@ def monthly_payment(amount, yearly_rate, months):
         return round(amount / months, 2)
     r = yearly_rate / 100 / 12  # monthly rate: 12% a year -> 0.01
     payment = amount * r / (1 - (1 + r) ** -months)
-    return round(payment, 2)
+    return round(payment)
