@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: loan-api
-          image: loan-api:v1
+          image: ghcr.io/onlygibson/loan-api:cfd113a1bd5a8b2d34e1720211abcc939ded8235
           ports:
             - containerPort: 8000
           readinessProbe:
